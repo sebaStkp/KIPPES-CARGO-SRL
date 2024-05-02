@@ -1,0 +1,24 @@
+footer{
+    background-color: white;
+}
+.fot {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-2{
+    display: flex;
+    justify-content: center;
+}
+
+.site-1, .site-2, .site-3{
+    width: 33%;
+    text-align: center;
+}
+
+
+svg{
+    height: 3rem;
+}

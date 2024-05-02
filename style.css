@@ -1,0 +1,18 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.contenido{
+    background-color: #3B3B6B;
+}
+.foto-empresa{
+    width: 100%;
+    height: 60vh;
+    background-color: blue;
+    background-size:cover;
+    background-position: 0 -14rem;
+    background-repeat: no-repeat;
+    background-attachment:inherit ;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
