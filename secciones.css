@@ -6,7 +6,9 @@
     align-items: center;
     padding-bottom: 1rem;
 }
-
+.secciones p, .secciones li{
+    font-size: 140%;
+}
 .contenido{
     display: flex;
     flex-direction: column;
@@ -20,25 +22,74 @@
 }
 
 .cont-secc{
-    width: 75rem;
+    width: 65rem;
 }
 
-
-.cont-secc button{
+.boton-cont{
     text-align: center;
-    border-radius: 1rem 1rem;
-    height: 2.5rem;
-    width: 5rem;
-    background-color: #3B3B6B;
+}
+.boton-cont a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #3B3B6B; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quitamos el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    border: none; /* Quitamos el borde */
+    cursor: pointer; /* Cursor de puntero */
+    transition:0.3s; /* Transición suave del color de fondo */
 }
 
-.img-cont{
+/* Estilo del enlace como botón cuando se pasa el ratón por encima */
+.boton-cont a:hover {
+    background-color: #0056b3; /* Cambiamos el color de fondo al pasar el ratón */
+}
+
+
+.secciones .servi-one li{
+    list-style: disc;
+}
+
+.servi-two li{
+    list-style: none;
+}
+
+.cont-servi{
     display: flex;
-    justify-content: center;
-
 }
-.img-cont a{
-    font-size: 130%;
+.servi-one, .servi-two {
+    flex: 1;
+}
+
+.servi-two{
+    font-size: 1.3rem;
+}
+
+.cont-servi a{
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+.servi-one{
+    display: flex;
+    align-items: center;
+}
+
+.cont-servi ul {
+    display: grid;
+    gap: 0.5rem; 
+}
+
+.cont-servi a:hover{
+    color:#609ee6;
+    transition: 0.3s;
+}
+
+.img-noticias{
+    display: flex;  
+    margin: 2rem 0;
+}
+
+.noti-text{
+    margin-left: 3rem;
 }

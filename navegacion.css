@@ -1,20 +1,21 @@
-.navegacion{
+.navegacion {
     background-color: linear-gradient(to bottom, #ffffff, #393939); 
     width: 50%;
 }
-.logo{
+
+.logo {
     width: 50%;
     display: flex;
-
 }
+
 .nav {
     background-image: white; 
-    height:7rem;
+    height: 7rem;
     display: flex;
     align-items: center;
 }
 
-ul div {
+.navegacion  li {
     display: flex;
     align-items: center;
     height: 3.5rem;
@@ -22,7 +23,8 @@ ul div {
     box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.2);
     border-radius: 2rem 2rem;
 }
-.navegacion li, .navegacion a{
+
+.navegacion li, .navegacion a {
     border-radius: 2rem 2rem;
 }
 
@@ -33,12 +35,6 @@ ul div {
     text-align: center;
     gap: 2rem;
 }
-
-.nav div {
-    display: flex;
-    align-items: center;
-}
-
 
 .nav ul {
     display: flex;
@@ -53,14 +49,14 @@ ul div {
     padding: 5px 10px;  
 }
 
-.nav .navegacion ul div:hover li a, 
-.nav .navegacion ul div:hover{
+.navegacion ul li:hover,
+.navegacion ul li:hover a {
     background: #3B3B6B;
     color: white;
+    transition: 0.5s;
 }
 
-.logo img{
+.logo img {
     width: 13rem;
     margin-left: 5rem;
 }
-
